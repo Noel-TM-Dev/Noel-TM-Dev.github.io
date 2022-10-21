@@ -29,6 +29,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  
 }
 
 h1{
@@ -298,7 +299,7 @@ a{
   @media (max-width: 1200px){
   
     .content-img{
-        margin-top: -90px;
+       
         width: 150px;
       
     }
@@ -581,7 +582,7 @@ a{
     background-color: #c0a309;
  }
  .js-content img{
-   width: 140px;
+   width: 80%;
    margin: 0 auto;
  }
  .skillset .angular-content{
@@ -591,7 +592,8 @@ a{
  }
  
  .angular-content img{
-   width: 135px;
+   /* width: 135px; */
+   width: 75%;
    margin: 0 auto;
  }
  .skillset .node-content{
@@ -628,9 +630,9 @@ a{
     align-content: center;
     
   }
-  .skills-content  img{
+  /* .skills-content  img{
     width: 80%;
-  }
+  } */
   .skillset > div{
     display: flex;
     align-items: center;
@@ -690,9 +692,9 @@ a{
     align-content: center;
   }
 
-  .skills-content  img{
+  /* .skills-content  img{
     width: 100%;
-  }
+  } */
   .skillset > div{
     display: flex;
     align-items: center;
@@ -702,6 +704,33 @@ a{
     height: 100px;
   }
 }
+
+
+.card {
+  overflow: hidden;
+  display: block !important;
+}
+
+
+.card h3 {
+  margin: 0;
+  /* padding: 12px 12px 48px; */
+  /* line-height: 36px; */
+  display: flex !important;
+  justify-content: center;
+  font-size: 20px;
+}
+
+
+
+/* .card:hover h3, .card:focus-within h3 {
+  padding: 8px 12px 0;
+} */
+
+
+
+
+
 
 
 /* PORTFOLIO section*/
@@ -966,7 +995,7 @@ footer{
     height:30vh;
   }
   h1 {
-    font-size:24px;
+    font-size:30px;
   }
 }
 
@@ -977,7 +1006,7 @@ footer{
 .social-content a{
   color: #fff;
   margin: 0 10px;
-  font-size: 60px;
+  font-size: 35px;
 }
 .social-content i{
   transition: transform .8s;
