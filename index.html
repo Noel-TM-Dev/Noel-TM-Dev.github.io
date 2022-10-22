@@ -18,7 +18,7 @@
 
 </head>
 <body>
-    
+  <span class="ir-arriba "><i class="fa-solid fa-arrow-up"></i></span>
 <div class="wrapper">
     <header>
         <nav class="nav-bar container">
@@ -29,18 +29,18 @@
             <input type="checkbox" name="menu" id="menu" class="menu-toggler">
             <label for="menu" class="menu-toggler-label"><i class="fa-solid fa-bars"></i></label>
             <ul class="stagger-menu">
-              <li style="--i: 0"><a class="active" href="#">Home</a</li>
-              <li style="--i: 1"><a href="#about">About me</a></li>
-              <li style="--i: 2"><a href="#">Portfolio</a></li>
-              <li style="--i: 3"><a href="#">Contact</a></li>
+              <li style="--i: 0"><a href="#about">About me</a></li>
+              <li style="--i: 1"><a href="#skills">Skills</a></li>
+              <li style="--i: 2"><a href="#portfolio">Portfolio</a></li>
+              <li style="--i: 3"><a href="#contact">Contact</a></li>
             </ul>
           </div>
 
            <ul class="menu">
-            <li ><a class="active" href="#">Home</a></li>
             <li><a href="#about">About me</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#porfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
            </ul>
         </nav>
     </header>
@@ -104,7 +104,7 @@
         </div>
   
     </div>
-    <div class="skills-content">
+    <div id="skills" class="skills-content">
         <h2>Skills</h2>
       <hr>
       <div class="skillset">
@@ -145,7 +145,7 @@
           </div>
       </div>
     </div>
-    <div class=" portfolio-content ">
+    <div id="portfolio" class=" portfolio-content ">
       <section class="section-with-carousel section-with-left-offset position-relative mt-5">
         <div class="container-carrousel">
           <h2 class="mb-3">Portfolio</h2>
@@ -234,8 +234,9 @@
         </div>
         <div class="swiper-pagination"></div>
       </section>
-      
     </div>
+
+
   </section>
 
 
@@ -244,6 +245,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   
+    <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/carrousel.js"></script>
     
@@ -252,7 +254,7 @@
 
 <footer style="margin: 0px;">
 
-  <div class="footer-header">
+  <div id="contact" class="footer-header">
     <!--Waves Container-->
     <div>
       <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28"
