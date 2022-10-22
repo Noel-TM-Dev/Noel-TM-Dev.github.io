@@ -928,10 +928,6 @@ footer{
 
 
 
-
-
-
-
 .footer-headerr {
   position:relative;
   text-align:center;
@@ -969,11 +965,9 @@ footer{
   height:20vh;
   text-align:center;
   background-color: #191c32;
-}
-
-.content-footer h4{
   color: white;
 }
+
 
 /* Animation */
 
@@ -1038,4 +1032,13 @@ footer{
   -webkit-transform: scale(1.4); /* Safari 3-8 */
    transform: scale(1.4);
    color: var(--color-aqua);
+}
+
+.contact{
+  margin-top: -20px;
+  margin-bottom: 5px;
+}
+.contact a {
+  color: #119DA4;
+  text-decoration: underline;
 }
