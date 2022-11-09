@@ -970,15 +970,15 @@ a{
 .btn-app{
   padding: 20px;
   text-decoration: none;
-  background-color:transparent;
+  background-color: #119DA4;
   color: white;
   font-weight: 800;
   width: 100%;   
 }
 
 .btn-app:hover{
-   background-color: #119DA4;
-   box-shadow: 2px 1px 5px var(--color-blue);
+   background-color: var(--color-blue);
+   box-shadow: 2px 1px 20px var(--color-blue);
 }
 
 
