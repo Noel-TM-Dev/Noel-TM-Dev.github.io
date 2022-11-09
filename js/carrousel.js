@@ -53,6 +53,7 @@ for(let i=0; i<marqueeElementsDisplayed; i++) {
   new Swiper(swiper, {
     autoplay: {
         delay: 1000,
+        pauseOnMouseEnter: true,
     },
     speed: 1800,
     slidesPerView: 1,
